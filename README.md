@@ -19,16 +19,11 @@
 ![Screenshot from 2023-11-24 15-02-14](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/1cfbe9b5-2b7e-4e4a-918d-0257efc87b6b)
 
      - ls openlane/
-     - make user_proj_example
+     - make PES_RCA
 
-![Screenshot from 2023-11-24 17-32-01](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/eaf17166-8aeb-41c4-b390-6e1f499be20b)
-
-     - ls gds/
-     - After completed successfully check the project name wll be updated with gds.
-     - klayout gds/user_proj_example.gds
-
-![Screenshot from 2023-11-24 17-35-43](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/31f41b7b-cf3f-4a10-8bc4-504c63a57c4b)
+![Screenshot from 2023-11-24 18-53-24](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/e8ca2281-2fc1-4c15-950f-bd2ab39cafb7)
 
 
+![Screenshot from 2023-11-24 18-53-39](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/94dda21a-741f-4608-9131-e5616b2b3ecc)
 
 
