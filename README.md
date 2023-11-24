@@ -1,14 +1,34 @@
-# Caravel User Project
+# TAPEOUT PROCESS
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
+### 1) CREATING A REPOSITORY
+  Create the reposiory by reffering th below github
+  
+    - https://github.com/efabless/caravel_user_project
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
+### 2) CLONING AND SETUP
+ Go to terminal and folloe the below commands
+ 
+     - git clone https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout.git
+     - mkdir ~/asic  
+     - export OPENLANE_ROOT=~/asic/openlane
+     - export PDK_ROOT=~/asic/pdk
+     - cd 4-Bit-RCA-Tapeout
+     - make setup
 
-Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of how to use caravel_user_project
+![Screenshot from 2023-11-24 15-02-14](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/1cfbe9b5-2b7e-4e4a-918d-0257efc87b6b)
 
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+     - ls openlane/
+     - make user_proj_example
 
-Refer to the following [readthedocs](https://caravel-sim-infrastructure.readthedocs.io/en/latest/index.html) for how to add cocotb tests to your project. 
+![Screenshot from 2023-11-24 17-32-01](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/eaf17166-8aeb-41c4-b390-6e1f499be20b)
+
+     - ls gds/
+     - After completed successfully check the project name wll be updated with gds.
+     - klayout gds/user_proj_example.gds
+
+![Screenshot from 2023-11-24 17-35-43](https://github.com/Vinodkumar8318/4-Bit-RCA-Tapeout/assets/142583979/31f41b7b-cf3f-4a10-8bc4-504c63a57c4b)
+
+
+
+
